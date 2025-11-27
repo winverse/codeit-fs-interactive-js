@@ -1,9 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>쇼핑몰</title>
+    <title>CSS 선택자로 태그 선택하기</title>
   </head>
   <body>
+    <!-- id 선택자 예제 -->
+    <div id="main-title">메인 제목</div>
+
+    <!-- class 선택자 예제 -->
+    <div class="product">상품 1</div>
+    <div class="product">상품 2</div>
+    <div class="product">상품 3</div>
+
+    <!-- 자식 선택자 예제 -->
+    <div class="container">
+      <p>컨테이너 안의 문단</p>
+    </div>
+    <p>컨테이너 밖의 문단</p>
+
+    <!-- 자손 선택자 예제 -->
+    <div id="menu">
+      <ul>
+        <li>메뉴 1</li>
+        <li>메뉴 2</li>
+      </ul>
+    </div>
+
+    <!-- 속성 선택자 예제 -->
+    <input type="text" placeholder="이름" />
+    <input type="email" placeholder="이메일" />
+    <input type="password" placeholder="비밀번호" />
+
+    <!-- 가상 클래스 선택자 예제 -->
+    <ul>
+      <li>첫 번째</li>
+      <li>두 번째</li>
+      <li>세 번째</li>
+    </ul>
+
+    <!-- 복합 선택자 예제 -->
+    <button class="btn primary">저장</button>
+    <button class="btn secondary">취소</button>
+
+    <!-- 실전 예제 -->
     <div id="app">
       <h1 class="title">쇼핑몰</h1>
       <div class="product-list">
