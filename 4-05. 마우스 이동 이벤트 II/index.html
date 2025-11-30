@@ -3,38 +3,23 @@
   <head>
     <title>마우스 이동 이벤트 II</title>
     <style>
-      .block {
-        margin: 20px 0;
-        padding: 10px;
-        border-bottom: 1px solid #eee;
+      #outer {
+        width: 300px;
+        height: 300px;
+        background: lightyellow;
+        padding: 20px;
+      }
+      #inner {
+        width: 100px;
+        height: 100px;
+        background: lightcoral;
       }
     </style>
   </head>
   <body>
-    <!-- 1. mouseenter/mouseleave 예제 -->
-    <div class="block">
-      <h3>1. 마우스 진입/나감</h3>
-      <div
-        id="outer"
-        style="
-          width: 300px;
-          height: 300px;
-          background: lightyellow;
-          padding: 20px;
-        "
-      >
-        외부
-        <div
-          id="inner"
-          style="
-            width: 100px;
-            height: 100px;
-            background: lightcoral;
-          "
-        >
-          내부
-        </div>
-      </div>
+    <div id="outer">
+      외부
+      <div id="inner">내부</div>
     </div>
 
     <script src="index.js"></script>

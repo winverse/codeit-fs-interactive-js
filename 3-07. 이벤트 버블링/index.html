@@ -8,11 +8,11 @@
         padding: 10px;
         border-bottom: 1px solid #eee;
       }
-      #outer {
+      #container {
         padding: 20px;
         background: #f0f0f0;
       }
-      #inner {
+      #box {
         padding: 20px;
         background: #ddd;
       }
@@ -22,11 +22,11 @@
     <!-- 1. 이벤트 버블링 예제 -->
     <div class="block">
       <h3>1. 이벤트 버블링</h3>
-      <div id="outer">
-        외부 div
-        <div id="inner">
-          내부 div
-          <button id="btn">버튼</button>
+      <div id="container">
+        container
+        <div id="box">
+          box
+          <button id="button">클릭</button>
         </div>
       </div>
     </div>
