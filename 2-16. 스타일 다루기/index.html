@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>스타일 다루기</title>
+    <style>
+      .block {
+        margin: 20px 0;
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+      }
+      .done {
+        text-decoration: line-through;
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1. 스타일 다루기 예제 -->
+    <div class="block">
+      <h3>1. 할 일 목록</h3>
+      <ul id="todo-list">
+        <li class="done">공부하기</li>
+        <li>운동하기</li>
+        <li>책 읽기</li>
+      </ul>
+      <button id="toggle-btn">완료 토글</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
