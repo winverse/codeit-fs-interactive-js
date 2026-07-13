@@ -8,6 +8,21 @@
         padding: 10px;
         border-bottom: 1px solid #eee;
       }
+
+      #follower {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: tomato;
+        pointer-events: none;
+      }
+
+      #zone {
+        width: 300px;
+        height: 300px;
+        background: lightblue;
+      }
     </style>
   </head>
   <body>
@@ -26,6 +41,10 @@
       </div>
       <p id="coordinates">좌표:</p>
     </div>
+
+    <div id="follower"></div>
+    <div id="zone">특정 영역 감지</div>
+    <p id="info">좌표 정보</p>
 
     <script src="index.js"></script>
   </body>
